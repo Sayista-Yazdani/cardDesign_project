@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card </title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Marko+One&family=REM:ital,wght@0,500;1,500&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            height: 100%;
+            width: 100%;
+            font-family: "Baloo Bhaijaan 2", sans-serif, cursive;
+            /* display: flex;
+            */
+        }
+
+
+        .container {
+            border-radius: 10px;
+            width: 280px;
+            height: 460px;
+            border: 2px solid gray;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 85px auto;
+            box-shadow: rgba(10, 10, 49, 0.2) 0px 7px 29px 0px;
+
+        }
+
+        .container .img {
+            width: 272px;
+            height: 207px;
+            border: 2px solid rgb(130, 92, 92);
+            margin: 3px;
+            border-radius: 8px;
+            background-image: url(https://images.pexels.com/photos/2409681/pexels-photo-2409681.jpeg?auto=compress&cs=tinysrgb&w=600);
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: url(https://img.icons8.com/?size=21&id=uKVJzWYdiV27&format=png), pointer;
+        }
+
+
+        .img:hover {
+            width: 280px;
+            height: 200px;
+            background-image: url(https://cdn.pixabay.com/photo/2023/05/27/11/03/woman-8021288_1280.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+            border: none;
+            animation: 3s ease-in-out;
+            filter: blur(0.3px);
+
+        }
+
+        .capsule button {
+            border: 2px solid gray;
+            margin: 10px 0px 0px 0px;
+            position: relative;
+            right: 60px;
+            padding: 2px;
+            border-radius: 8px;
+            width: 70px;
+            background-color: white;
+            color: gray;
+            cursor: url(https://img.icons8.com/?size=21&id=uKVJzWYdiV27&format=png), pointer;
+
+        }
+
+        /* .capsule {
+            padding: 5px 150px 0px 0px;
+        } */
+
+        /* .capsule span {
+            border: 2px solid gray;
+            margin-top: 10px;
+            padding: 0px 8px;
+            border-radius: 11px;
+            font-size: 13px;
+            cursor:url(https://img.icons8.com/?size=40&id=111137&format=png), pointer; 
+        } */
+
+        .containt h2,
+        p {
+            text-align: left;
+            margin-left: 10px;
+            font-family: "Baloo Bhaijaan 2", sans-serif, cursive;
+            padding: 3px;
+        }
+
+        .containt h2 {
+            margin: 6px 0px 0px 6px;
+
+        }
+
+
+        .container p {
+            font-size: 15px;
+            margin: 3px 0px 0px 6px;
+            color: rgb(91, 89, 89);
+        }
+
+        .btn button {
+            margin: 14px;
+            padding: 8px;
+            border-radius: 36px;
+            width: 108px;
+            color: rgb(88, 88, 145);
+            background-color: white;
+            font-size: 13px;
+            font-weight: 600;
+            border: 2px solid gray;
+            cursor: url(https://img.icons8.com/?size=21&id=uKVJzWYdiV27&format=png), pointer;
+        }
+
+        button:hover {
+            background-color: rgb(139, 92, 139);
+            color: white;
+            animation: 3s ease-in-out;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="img">
+
+        </div>
+        <div class="capsule">
+            <button type="button">Nature</button>
+            <button type="button">Lake</button>
+
+            <!-- <span>Nature</span>
+            <span>Lake</span> -->
+        </div>
+        <div class="containt">
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusantium provident iure molestiae
+                magni sint maxime facilis natus soluta laboriosam expedita, molestias suscipit...</p>
+
+        </div>
+        <div class="btn">
+            <button type="button">Read More</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
